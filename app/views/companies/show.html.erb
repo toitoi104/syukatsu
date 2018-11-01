@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @company.name %>
+</p>
+
+<p>
+  <strong>Employees:</strong>
+  <%= @company.employees %>
+</p>
+
+<p>
+  <strong>Average salary:</strong>
+  <%= @company.average_salary %>
+</p>
+
+<p>
+  <strong>Average age:</strong>
+  <%= @company.average_age %>
+</p>
+
+<p>
+  <strong>Listed:</strong>
+  <%= @company.listed %>
+</p>
+
+<p>
+  <strong>Listed type:</strong>
+  <%= @company.listed_type %>
+</p>
+
+<p>
+  <strong>Flow:</strong>
+  <%= @company.flow %>
+</p>
+
+<p>
+  <strong>Industry type:</strong>
+  <%= @company.industry_type %>
+</p>
+
+<p>
+  <strong>Hire:</strong>
+  <%= @company.hire %>
+</p>
+
+<p>
+  <strong>Magnification:</strong>
+  <%= @company.magnification %>
+</p>
+
+<%= link_to 'Edit', edit_company_path(@company) %> |
+<%= link_to 'Back', companies_path %>
